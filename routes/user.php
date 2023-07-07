@@ -2,6 +2,7 @@
 
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 
 route::prefix('User')->name('User.')->controller(UserController::class)->group(function(){

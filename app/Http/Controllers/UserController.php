@@ -15,7 +15,7 @@ return 'The Age is ' .$age;
 }
 
 public function Adress() {
-return 'The Adress Page ';
+return view('test');
 }
 
 public function Payment() {
